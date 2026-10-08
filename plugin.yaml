@@ -1,0 +1,14 @@
+{
+  "name": "acedatacloud-happyhorse",
+  "version": "1.0.0",
+  "description": "Happy Horse text-to-video generation through your Ace Data Cloud account.",
+  "author": "AceDataCloud",
+  "requires_hermes": ">=0.21.6",
+  "provides_tools": [
+    "acedata_happyhorse_generate",
+    "acedata_happyhorse_task"
+  ],
+  "requires_env": [
+    "ACEDATACLOUD_API_KEY"
+  ]
+}
