@@ -1,0 +1,36 @@
+{
+  "canonical_repository": "https://github.com/AceDataCloud/AceDataCloudMediaHermes",
+  "canonical_commit": "230d90061406b57d50624b6772c3072ba4da9545",
+  "generator": "scripts/export_service.py",
+  "service": "happyhorse",
+  "consumer_repository": "https://github.com/AceDataCloud/HappyHorseHermes",
+  "canonical_contract": "services/happyhorse.json",
+  "identity_map": {
+    "tool_prefix": [
+      "acedatacloud_happyhorse",
+      "acedatacloud_single_happyhorse"
+    ],
+    "toolset": [
+      "acedatacloud-happyhorse",
+      "acedatacloud-single-happyhorse"
+    ],
+    "native_image_provider": null
+  },
+  "transport_sha256": "2653fd9275cbda09beff43968d943baa82df83656217d08ddeb9521cc99b1d7f",
+  "canonical_operation_sha256": "9ba2d095f6c4e4de7f5b7d018c023d103f11664e37df0fba9645956395de40e4",
+  "generated_files": {
+    "__init__.py": "9d51d110361ab2acec5c3561cb500e6545ccce8541b97aa4557b4cea73d13712",
+    "client.py": "2653fd9275cbda09beff43968d943baa82df83656217d08ddeb9521cc99b1d7f",
+    "image_provider.py": "183dc1f72fa1905364466aa30da14d82c074d3484ee6a6a6a5b739a62342490c",
+    "services/happyhorse.json": "c4aff69b5037de7b4d90e359acba1c35ca8a82eca5eb02df2c9fd78c449b5385",
+    "plugin.yaml": "bc2073015d66cf8527318491aaaf9daae581cd9a203295ee4e45926f2c7230ad",
+    "tests/test_contracts.py": "fa834427da679d6abb5a4a697f2d8a5ea18fcd9589aef7cb7077c3ebf5ff7dd3",
+    "tests/test_registration.py": "b43832ba1897fac0d0c6e26732c74408e1e74750775195cbe7d2e5cdcf31446b",
+    "tests/test_source_profile.py": "dbe36c636c4d9c6cbc05099305adeb69c36ed5c15c9cc547b610f17bb78b881d",
+    "scripts/check_runtime.py": "be594c81cf4436cc9689babae0344815268aab33345afc391221079be151e90f",
+    "LICENSE": "72d30730d068e067be58878959bac2450f5a05f2b2e3c365cdc13a0181635c3c",
+    ".github/workflows/validate.yml": "711ae1ce0078fca39eef871a364dccd9f4093416e04723f1e8a296a4e4a46952",
+    "README.md": "6ffee23fcebb723b8d2768b119f081a312c8fb1f5b1e84dbe17b9847b4b06292",
+    "readme/README_zh_Hans.md": "79e8981490774f5ebab35ee18a006f4cee9d12e5f6c92e12cc7bb27551119b04"
+  }
+}
